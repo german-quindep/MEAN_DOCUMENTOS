@@ -1,0 +1,39 @@
+.header {
+  text-align: center;
+}
+.content {
+  margin: 100px;
+}
+.upload {
+  cursor: pointer;
+}
+.cargaDeArchivo {
+  background: #299a0b;
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    #299a0b 0%,
+    #299a0b 100%
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    #299a0b 0%,
+    #299a0b 100%
+  );
+  background: radial-gradient(ellipse at center, #299a0b 0%, #299a0b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', endColorstr='#299a0b',GradientType=1 );
+  width: 25px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  -webkit-box-shadow: 1px 2px 3px 4px rgba(2, 3, 4, 5);
+  box-shadow: 1px 2px 3px 4px rgba(2, 3, 4, 5);
+}
+
+.cargaDeArchivo:hover {
+  -webkit-box-shadow: 22px 11px 4px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 22px 11px 4px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 22px 11px 4px -5px rgba(0, 0, 0, 0.75);
+}
